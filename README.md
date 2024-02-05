@@ -20,7 +20,7 @@
 ### Missing items
 - ClientCallException needs to be more matured
 - Retry of timed out endpoints is made part of cache at the moment for simplicity, but should be kept in a separate class where more specialized retry mechanism can be implemented.
-- Integration test misses the test for caching functionality due to wiremock not supporting controlled variable delays.
+- Integration test misses the test for caching functionality due to wiremock not supporting controlled variable delays, however the same has been tested in AggregatorService unit tests.
 
 ### Steps to run
 - run command `docker-compose up -d`(starts up wiremock, used in tests)
