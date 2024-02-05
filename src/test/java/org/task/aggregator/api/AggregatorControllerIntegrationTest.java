@@ -14,7 +14,7 @@ import static org.springframework.http.RequestEntity.get;
  * It calls the URLs hosted on wiremock server configured(on port 12345) in docker-compose.
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class AggregatorControllerIT {
+class AggregatorControllerIntegrationTest {
 
   @Autowired TestRestTemplate restTemplate;
 
