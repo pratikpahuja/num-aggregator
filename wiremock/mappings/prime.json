@@ -1,0 +1,37 @@
+{
+	"mappings": [{
+		"request": {
+			"method": "GET",
+			"url": "/prime"
+		},
+		"response": {
+			"status": 200,
+			"bodyFileName": "prime_ok.json",
+			"headers": {
+				"Content-Type": "application/json"
+			}
+		}
+	},
+	{
+		"request": {
+			"method": "GET",
+			"url": "/rand"
+		},
+		"response": {
+			"status": 200,
+			"bodyFileName": "rand_ok.json",
+			"headers": {
+				"Content-Type": "application/json"
+			}
+		}
+	},
+	{
+		"request": {
+			"method": "GET",
+			"url": "/fault"
+		},
+		"response": {
+			"fault": "MALFORMED_RESPONSE_CHUNK"
+		}
+	}]
+}

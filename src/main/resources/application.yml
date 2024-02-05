@@ -1,0 +1,10 @@
+endpoint-caller:
+  pool-size: 5
+  pool-execution-timeout-in-ms: 480
+
+endpoint:
+  read-timeout-in-ms: 450
+
+cache:
+  size: 10
+  max-age-in-ms: 10000
